@@ -47,7 +47,7 @@
   color: var(--cl-primary-1);
 }
 .sidebarList {
-  margin-bottom: 3rem;
+  margin-bottom: 30px;
   font-size: 2rem;
   text-align: center;
   list-style-type: none;
@@ -55,12 +55,12 @@
 .sidebarListItem {
   display: inline-block;
   width: 50%;
-  margin-top: 1.5rem;
+  margin-top: 15px;
   text-transform: capitalize;
   cursor: pointer;
 }
 .sidebarSocial {
-  margin-top: 1.5rem;
+  margin-top: 15px;
   width: 25rem;
   display: flex;
   align-items: center;
@@ -69,5 +69,5 @@
 
 .sidebarIcon {
   font-size: 3rem;
-  margin: 0 1rem;
+  margin: 0 10px;
 }
