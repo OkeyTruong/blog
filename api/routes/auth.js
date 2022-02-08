@@ -28,9 +28,9 @@ router.post("/login", async (req,res)=>{
     const validated = await bcrypt.compare(req.body.password, user.password)
     !validated && res.status(404).json("password is wrong. please check and try again")
     
-    const {password,...other} = user._doc;
+    const {password,...others} = user._doc;
 
-    res.status(200).json(other)
+    res.status(200).json(others)
   } catch (error) {
     res.status(500).json(error)
   } 
