@@ -92,4 +92,7 @@
     color:var(--cl-primary-10);
     transform: translate(-50%, -50%);
   }
-  
+  .error{
+    font-size: 2rem;
+    top: 10%;
+  }
